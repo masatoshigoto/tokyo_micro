@@ -1,0 +1,45 @@
+.page_privacypolicy .lead {
+  line-height: 1.62;
+  margin-bottom: 8rem;
+}
+
+.page_privacypolicy .policy_block:not(:last-of-type) {
+  margin-bottom: 7.5rem;
+}
+
+.page_privacypolicy .policy_block .block_title {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.45;
+  margin-bottom: 3rem;
+}
+
+.page_privacypolicy .policy_block .p_wrap {
+  padding-left: 1.5em;
+}
+
+.page_privacypolicy .policy_block .block_p {
+  line-height: 1.62;
+}
+
+.page_privacypolicy .policy_block .bolck_list {
+  margin-top: 1.5rem;
+}
+
+.page_privacypolicy .policy_block .bolck_list li {
+  line-height: 1.62;
+  padding-left: 1em;
+  position: relative;
+}
+
+.page_privacypolicy .policy_block .bolck_list li:not(:last-of-type) {
+  margin-bottom: .5rem;
+}
+
+.page_privacypolicy .policy_block .bolck_list li::before {
+  content: "・";
+  position: absolute;
+  top: 0;
+  left: 0;
+}

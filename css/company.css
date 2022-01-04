@@ -1,0 +1,80 @@
+.page_company .g_map {
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+.page_company .g_map .fa-map-marker-alt {
+  color: #04aefc;
+  font-size: 1.2em;
+  position: relative;
+  top: 1px;
+}
+
+@media (min-width: 769px) {
+  .page_company .sec_about th,
+  .page_company .sec_group th {
+    width: 14rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .page_company .sec_about td,
+  .page_company .sec_group td {
+    width: calc(100% - 14rem);
+  }
+}
+
+@media (min-width: 769px) {
+  .page_company .sec_history th {
+    width: 17rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .page_company .sec_history td {
+    width: calc(100% - 17rem);
+  }
+}
+
+.page_company .sec_environment dl {
+  margin-bottom: 9rem;
+}
+
+.page_company .sec_environment dt {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.page_company .sec_environment dd {
+  line-height: 1.75;
+}
+
+.page_company .sec_environment .policy_list li {
+  position: relative;
+}
+
+.page_company .sec_environment .policy_list li .num,
+.page_company .sec_environment .policy_list li .child_list_num {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.page_company .sec_environment .policy_list > li {
+  padding-left: 4rem;
+  margin-bottom: 3rem;
+}
+
+.page_company .sec_environment .policy_list .child_list {
+  margin-top: 3rem;
+}
+
+.page_company .sec_environment .policy_list .child_list > li {
+  padding-left: 3rem;
+}
+
+.page_company .sec_environment .logo {
+  margin-top: 4.5rem;
+}

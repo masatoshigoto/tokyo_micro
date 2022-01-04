@@ -1,0 +1,625 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>タイトル</title>
+<meta name="description" content="">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-rqn26AG5Pj86AF4SO72RK5fyefcQ/x32DNQfChxWvbXIyXFePlEktwD18fEz+kQU" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+<div class="body_wrap">
+
+
+<div id="contents" class="page_home">
+  <main id="main">
+    <div class="landing">
+      <video class="landing_video js-landing_video" src="video/intro-animation.mp4" autoplay playsinline muted></video>
+    </div>
+
+    <section class="sec_top m-sec_top">
+      <div class="bg">
+        <img src="images/page/home_top_bg_01.png" alt="">
+        <div class="bg_2">
+          <img src="images/page/home_top_bg_02.png" alt="">
+        </div>
+      </div>
+
+      <div class="content container_l">
+        <!-- <h1 class="site_title">
+          <span class="str str_1 js-str">
+            <img src="images/page/home_hero_title_01.png" alt="東京マイクロ株式会社" class="inner">
+          </span>
+          <span class="str str_2 js-str">
+            <img src="images/page/home_hero_title_02.png" alt="TOKYO MICRO CO." class="inner">
+          </span>
+        </h1> -->
+
+        <!-- <p class="catch">
+          <span class="str str_1 js-str">
+            <img src="images/page/home_hero_text_01.png" alt="We offers know how the" class="inner">
+          </span>
+          <span class="str str_2 js-str">
+            <img src="images/page/home_hero_text_02.png" alt="Motion Control thoroughly" class="inner">
+          </span>
+        </p> -->
+
+        <!-- <p class="text pc">
+          <span class="str str_1 js-str">
+            <span class="inner">東京マイクロ株式会社は、国内・海外メーカーの精密機械部品や電子、</span>
+          </span>
+          <span class="str str_2 js-str">
+            <span class="inner">電気部品を中心に幅広く販売する独立系専門商社です。</span>
+          </span>
+          <span class="str str_3 js-str">
+            <span class="inner">また、樹脂製エコリミッターや精密装置の開発製造、販売をしている会社です。</span>
+          </span>
+        </p>
+
+        <p class="text sp">
+          <span class="str str_1 js-str">
+            <span class="inner">東京マイクロ株式会社は、国内・海外メーカーの精密機械部品や電子、電気部品を中心に幅広く販売する独立系専門商社です。また、樹脂製エコリミッターや精密装置の開発製造、販売をしている会社です。</span>
+          </span>
+        </p> -->
+
+        <h1 class="site_title">
+          <span class="str str_1">
+            <img src="images/page/home_hero_title_01.png" alt="東京マイクロ株式会社" class="inner">
+          </span>
+          <span class="str str_2">
+            <img src="images/page/home_hero_title_02.png" alt="TOKYO MICRO CO." class="inner">
+          </span>
+        </h1>
+
+        <p class="text">
+          <span class="str str_1">
+            <span class="inner">東京マイクロ株式会社は、国内・海外メーカーの精密機械部品や電子、<br class="pc">電気部品を中心に幅広く販売する独立系専門商社です。<br class="pc">また、樹脂製エコリミッターや精密装置の開発製造、販売をしている会社です。</span>
+          </span>
+        </p>
+      </div>
+    </section><!--sec_top-->
+
+    <section class="sec_philosophy m-sec">
+      <div class="container_s">
+        <div class="content">
+          <h2 class="m-sec_title top_right">
+            <span class="en">Corporate Identity</span>
+            <span class="ja">経営理念</span>
+          </h2>
+  
+          <ul class="m-philosophy_list u-fs_1">
+            <li>
+              <span class="num">1.</span>個と集団の調和発展を図る
+            </li>
+            <li>
+              <span class="num">2.</span>うるおいある人間関係を創る
+            </li>
+            <li>
+              <span class="num">3.</span>誠意・創造・努力によりお客様の要求を満たす
+            </li>
+            <li>
+              <span class="num">4.</span>新しい価値観の創出
+            </li>
+          </ul>
+  
+          <a href="company.html" class="m-blue_btn arrow_link js-hover">
+            会社情報を見る <i class="far fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="bg">
+        <picture>
+          <source media="(min-width: 769px)" srcset="images/page/home_philosophy_bg.png">
+          <img src="images/page/home_philosophy_bg_01.jpg" alt="">
+        </picture>
+
+        <picture class="sp">
+          <source media="(min-width: 769px)" srcset="images/common/none.gif">
+          <img src="images/page/home_philosophy_bg_02.jpg" alt="">
+        </picture>
+
+        <picture class="sp">
+          <source media="(min-width: 769px)" srcset="images/common/none.gif">
+          <img src="images/page/home_philosophy_bg_03.jpg" alt="">
+        </picture>
+
+        <picture class="sp">
+          <source media="(min-width: 769px)" srcset="images/common/none.gif">
+          <img src="images/page/home_philosophy_bg_04.jpg" alt="">
+        </picture>
+      </div>
+    </section><!--sec_philosophy-->
+
+    <section class="sec_slogan m-sec">
+      <div class="container_s">
+        <h2 class="m-sec_title top_left">
+          <span class="en">Guiding Principle</span>
+          <span class="ja">社員行動指針</span>
+        </h2>
+
+        <div class="m-slogan">
+          <p class="img">
+            <img src="images/page/slogan_img_01.png" alt="迅速果断">
+          </p>
+
+          <p class="p">
+            物事を思い切りよく<br class="pc">速やかに決断し、行動すること
+          </p>
+        </div>
+      </div>
+    </section><!--sec_slogan-->
+
+    <div class="sec_loop_slider">
+      <div class="loop_slider">
+        <ul class="slider_list slider_list_0">
+          <li class="slider_item">
+            <img src="images/page/loop_slider_01.png" alt="">
+          </li>
+          <li class="slider_item">
+            <img src="images/page/loop_slider_02.png" alt="">
+          </li>
+          <li class="slider_item">
+            <img src="images/page/loop_slider_03.png" alt="">
+          </li>
+          <li class="slider_item">
+            <img src="images/page/loop_slider_04.png" alt="">
+          </li>
+        </ul>
+      </div>
+
+      <div class="loop_slider">
+        <ul class="slider_list slider_list_1">
+          <li class="slider_item">
+            <img src="images/page/loop_slider_05.png" alt="">
+          </li>
+          <li class="slider_item">
+            <img src="images/page/loop_slider_06.png" alt="">
+          </li>
+          <li class="slider_item">
+            <img src="images/page/loop_slider_07.png" alt="">
+          </li>
+          <li class="slider_item">
+            <img src="images/page/loop_slider_08.png" alt="">
+          </li>
+        </ul>
+      </div>
+    </div><!--sec_loop_slider-->
+
+    <section class="sec_service m-sec">
+      <div class="container_s">
+        <h2 class="m-sec_title top_right">
+          <span class="en">Business Lineup</span>
+          <span class="ja">事業紹介</span>
+        </h2>
+
+        <div class="list">
+          <div class="item">
+            <dl>
+              <dt>商社機能/トレーディング</dt>
+              <dd>
+                60年の歴史で培われた経験、実績、人間関係。<br>
+                大手様との多数口座、客先ニーズに合わせたカスタム製品の創造。<br>
+                海外子会社、日本拠点との全社最適提案の徹底。
+              </dd>
+            </dl>
+          </div>
+
+          <div class="item">
+            <dl>
+              <dt>技術R&D/製造</dt>
+              <dd>
+                トルクリミッター、ワンウェイクラッチ各種ASSYなど、開発設計、また製造に裏付けされた技術商社。<br>
+                群馬にR&Dを設け設計開発から製造までを請け負います。<br>
+                商社営業部門では技術営業部も併設社員のISO教育なども実施。独自の QC評価基準を確立。
+              </dd>
+            </dl>
+          </div>
+
+          <div class="item">
+            <dl>
+              <dt>国内/国際調達機能</dt>
+              <dd>
+                200社を超える購買ネットワークを有します。<br>
+                また海外拠点との全社最適ネットワークにより、現地工場検索評価含めQCDで最適を提案します。
+              </dd>
+            </dl>
+          </div>
+        </div>
+
+        <a href="service.html" class="m-blue_btn arrow_link js-hover">
+          詳しい事業紹介を見る <i class="far fa-arrow-right"></i>
+        </a>
+      </div>
+    </section><!--sec_service-->
+
+    <section class="sec_certificate m-sec">
+      <div class="container_l">
+        <h2 class="m-sec_title bottom_right">
+          <span class="en">Certification History</span>
+          <span class="ja">認定履歴</span>
+        </h2>
+
+        <ul class="list sp">
+          <li>
+            <img src="images/page/certificate_01.png" alt="自社製品『Auto shield』東京都トライアル発注認定制度の商品認定 東京都知事">
+          </li>
+          <li>
+            <img src="images/page/certificate_02.png" alt="S・Q・D・環境 努力賞受賞 株式会社ダイフク様">
+          </li>
+          <li>
+            <img src="images/page/certificate_03.png" alt="エコアクション21 認証 一般財団法人持続性推進機構">
+          </li>
+          <li>
+            <img src="images/page/certificate_04.png" alt="アイデア技術開発 完了認定 財団法人新技術開発財団">
+          </li>
+        </ul>
+      </div>
+
+      <div class="loop_slider_wrap pc">
+        <div class="loop_slider">
+          <ul class="slider_list slider_list_2">
+            <li class="slider_item">
+              <img src="images/page/certificate_01.png" alt="自社製品『Auto shield』東京都トライアル発注認定制度の商品認定 東京都知事">
+            </li>
+            <li class="slider_item">
+              <img src="images/page/certificate_02.png" alt="S・Q・D・環境 努力賞受賞 株式会社ダイフク様">
+            </li>
+            <li class="slider_item">
+              <img src="images/page/certificate_03.png" alt="エコアクション21 認証 一般財団法人持続性推進機構">
+            </li>
+            <li class="slider_item">
+              <img src="images/page/certificate_04.png" alt="アイデア技術開発 完了認定 財団法人新技術開発財団">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section><!--sec_certificate-->
+
+    <section class="sec_news m-sec">
+      <div class="container_l">
+        <h2 class="m-sec_title top_right">
+          <span class="en">News</span>
+          <span class="ja">お知らせ</span>
+        </h2>
+
+        <div class="m-news_boxs">
+          <div class="news_box">
+            <div class="inner">
+              <div class="catch">
+                コロナ対策　飛沫感染防止用遮蔽版
+              </div>
+
+              <h3 class="news_box_title">
+                AuTo shield『Bowls』の販売開始
+              </h3>
+
+              <div class="content">
+                <div class="img">
+                  <img src="images/page/news_img_01.jpg" alt="">
+                </div>
+
+                <div>
+                  <p class="p">
+                    「withコロナ時代」を生き抜く為に、という思いから弊社が開発した製品です。従来のアクリル板ではなく、フィルムを用いた飛沫感染遮蔽板です。
+                  </p>
+
+                  <div class="link_wrap">
+                    <a href="https://www.youtube.com/watch?v=oJwLHTEqHsw" class="m-arrow_link m-text_link js-hover" target="_blank" rel="noopener noreferrer">
+                      YouTubeを見る <i class="far fa-arrow-right"></i>
+                    </a>
+                  </div>
+
+                  <div class="link_wrap">
+                    <a href="" class="m-arrow_link m-text_link js-hover" target="_blank" rel="noopener noreferrer">
+                      カタログを見る <i class="far fa-arrow-right"></i>
+                    </a>
+                  </div>
+
+                  <div class="link_wrap">
+                    <a href="https://store.shopping.yahoo.co.jp/tokyomicro/" class="m-arrow_link m-text_link js-hover" target="_blank" rel="noopener noreferrer">
+                      オンラインショップで見る <i class="far fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="m-news_list">
+          <div class="item">
+            <div class="meta">
+              <div>2021/11/30</div>
+              <div class="category">お知らせ</div>
+            </div>
+
+            <h3 class="news_title">
+              <a href="" class="m-text_link js-hover">
+                ホームページのリニューアルを行いました。
+              </a>
+            </h3>
+
+            <p class="p">
+              6月29日に通知させて頂いております勤務体制変更を当面の間継続する事になりましたのでご理解のほどよろしくお願い申し上げます。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <a href="news.html" class="m-blue_btn arrow_link js-hover">
+        全てのお知らせを見る <i class="far fa-arrow-right"></i>
+      </a>
+    </section><!--sec_news-->
+  </main>
+
+  <div id="side" class="m-scroll">
+  <div class="inner">
+    <div class="sp_header">
+      <div class="logo">
+        <a href="index.html">
+          <picture>
+            <source media="(max-width: 768px)" srcset="images/common/footer_logo.png">
+            <img src="images/common/logo.png" alt="TOKYO MICRO CO. 東京マイクロ株式会社">
+          </picture>
+        </a>
+      </div>
+    
+      <a class="hamburger sp js-burger_toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+  
+    <div class="sp_nav m-scroll">
+      <nav class="nav">
+        <ul>
+          <li class="nav_item sp">
+            <a class="nav_link m-text_link js-hover" href="index.html">ホーム</a>
+          </li>
+          <li class="nav_item dropdown">
+            <a href="company.html" id="nav_company" class="nav_link dropdown_toggle js-dropdown_toggle m-text_link js-hover">会社情報 <i class="far fa-chevron-down pc"></i></a>
+            <ul class="dropdown_menu js-dropdown_menu pc">
+              <li class="dorpdown_item">
+                <a href="company.html#philosophy" id="nav_philosophy" class="m-text_link js-hover js-nav_active">経営理念</a>
+              </li>
+              <li class="dorpdown_item">
+                <a href="company.html#about" id="nav_about" class="m-text_link js-hover js-nav_active">会社概要</a>
+              </li>
+              <li class="dorpdown_item">
+                <a href="company.html#history" id="nav_history" class="m-text_link js-hover js-nav_active">沿革</a>
+              </li>
+              <li class="dorpdown_item">
+                <a href="company.html#group" id="nav_group" class="m-text_link js-hover js-nav_active">グループ会社</a>
+              </li>
+              <li class="dorpdown_item">
+                <a href="company.html#environment" id="nav_environment" class="m-text_link js-hover js-nav_active">環境への取組</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav_item dropdown">
+            <a href="service.html" id="nav_service" class="nav_link dropdown_toggle js-dropdown_toggle m-text_link js-hover">事業紹介 <i class="far fa-chevron-down pc"></i></a>
+            <ul class="dropdown_menu js-dropdown_menu pc">
+              <li class="dorpdown_item">
+                <a href="service.html#sale" id="nav_sale" class="m-text_link js-hover js-nav_active">販売</a>
+              </li>
+              <li class="dorpdown_item">
+                <a href="service.html#production" id="nav_production" class="m-text_link js-hover js-nav_active">製造</a>
+              </li>
+              <li class="dorpdown_item">
+                <a href="service.html#overseas" id="nav_overseas" class="m-text_link js-hover js-nav_active">海外進出支援</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link m-text_link js-hover" href="news.html">お知らせ</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link m-text_link js-hover" href="contact.html">お問い合わせ</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link m-text_link js-hover" href="#">資料ダウンロード</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="sp container">
+        <ul class="m-policy_link">
+          <li>
+            <a href="privacypolicy.html" class="m-text_link js-hover">プライバシーポリシー</a>
+          </li>
+          <li>
+            <a href="" class="m-text_link js-hover">特定商取引法による表記</a>
+          </li>
+        </ul>
+
+        <ul class="m-sns_ec">
+          <li class="fb">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li class="insta">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="ec">
+            <a href="" target="_blank" rel="noopener noreferrer" class="m-text_link js-hover">
+              ONLINE SHOP
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="lang">
+        <li><a href="" class="m-text_link js-hover">JP</a></li>
+        <li><a href="" class="m-text_link js-hover">ENG</a></li>
+        <li><a href="" class="m-text_link js-hover">CN</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div><!--contents-->
+
+
+  <footer id="footer">
+    <div class="sec_cta">
+      <div class="container">
+        <div class="logo">
+          <img src="images/common/cta_logo.png" alt="">
+        </div>
+
+        <p class="p">
+          精密機械部品や<br class="sp">電子、電気部品のことなら<br>
+          お気軽にご相談ください。
+        </p>
+
+        <div class="contact">
+          <div class="item btn_wrap">
+            <a href="contact.html" class="m-blue_btn js-hover">
+              フォームから相談する
+            </a>
+          </div>
+
+          <div class="item tel_time">
+            <a href="tel:810337565281" class="tel m-text_link js-hover">
+              +81(0)3-3756-5281
+            </a>
+
+            <div class="time">
+              月 – 金 8:30 – 17:30
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--sec_cta-->
+
+    <div class="sec_footer">
+      <div class="container">
+        <div class="content">
+          <div class="inner">
+            <div class="block">
+              <div class="logo">
+                <a href="index.html">
+                  <img src="images/common/footer_logo.png" alt="TOKYO MICRO CO. 東京マイクロ株式会社">
+                </a>
+              </div>
+
+              <div class="imgs pc">
+                <img src="images/common/footer_img_01.png" alt="">
+                <img src="images/common/footer_img_02.png" alt="">
+              </div>
+            </div><!--block-->
+
+            <div class="block">
+              <div class="navs">
+                <ul class="nav">
+                  <li class="nav_item dropdown">
+                    <a href="company.html" class="nav_link dropdown_toggle m-text_link js-hover">会社情報</a>
+                    <ul class="dropdown_menu">
+                      <li class="dorpdown_item">
+                        <a href="company.html#philosophy" class="m-text_link js-hover">経営理念</a>
+                      </li>
+                      <li class="dorpdown_item">
+                        <a href="company.html#" class="m-text_link js-hover">社員行動指針</a>
+                      </li>
+                      <li class="dorpdown_item">
+                        <a href="company.html#about" class="m-text_link js-hover">会社概要</a>
+                      </li>
+                      <li class="dorpdown_item">
+                        <a href="company.html#history" class="m-text_link js-hover">沿革</a>
+                      </li>
+                      <li class="dorpdown_item">
+                        <a href="company.html#group" class="m-text_link js-hover">グループ会社</a>
+                      </li>
+                      <li class="dorpdown_item">
+                        <a href="company.html#environment" class="m-text_link js-hover">環境への取組</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <ul class="nav">
+                  <li class="nav_item dropdown">
+                    <a href="service.html" class="nav_link dropdown_toggle m-text_link js-hover">事業紹介</a>
+                    <ul class="dropdown_menu">
+                      <li class="dorpdown_item">
+                        <a href="service.html#sale" class="m-text_link js-hover">商社機能/トレーディング</a>
+                      </li>
+                      <li class="dorpdown_item">
+                        <a href="service.html#production" class="m-text_link js-hover">技術R&D/製造</a>
+                      </li>
+                      <li class="dorpdown_item">
+                        <a href="service.html#overseas" class="m-text_link js-hover">国内/国際調達機能</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav_item">
+                    <a href="news.html" class="nav_link m-text_link js-hover">お知らせ</a>
+                  </li>
+                  <li class="nav_item ">
+                    <a href="contact.html" class="nav_link m-text_link js-hover">お問い合わせ</a>
+                  </li>
+                </ul>
+              </div>
+
+              <ul class="m-sns_ec">
+                <li class="fb">
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </li>
+                <li class="insta">
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="ec">
+                  <a href="https://store.shopping.yahoo.co.jp/tokyomicro/" target="_blank" rel="noopener noreferrer" class="m-text_link js-hover">
+                    ONLINE SHOP
+                  </a>
+                </li>
+              </ul>
+            </div><!--block-->
+          </div>
+          
+          <div class="inner footer_bottom">
+            <ul class="m-policy_link">
+              <li>
+                <a href="privacypolicy.html" class="m-text_link js-hover">プライバシーポリシー</a>
+              </li>
+              <li>
+                <a href="" class="m-text_link js-hover">特定商取引法による表記</a>
+              </li>
+            </ul>
+
+            <div class="imgs sp">
+              <img src="images/common/footer_img_01.png" alt="">
+              <img src="images/common/footer_img_02.png" alt="">
+            </div>
+
+            <div class="copyright">
+              ©TOKYO MICRO INC. All Right Reserved.
+            </div>
+          </div>
+        </div><!--content-->
+      </div>
+    </div><!--sec_footer-->
+  </footer>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

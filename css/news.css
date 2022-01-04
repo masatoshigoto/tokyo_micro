@@ -1,0 +1,62 @@
+.page_news .sec_news_box,
+.page_single-news .sec_news_box {
+  padding-bottom: 6rem;
+}
+
+.page_single-news .article .container_s {
+  margin-bottom: -3rem;
+}
+
+.page_single-news .article .article_title,
+.page_single-news .article .article_title_2 {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", serif;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.page_single-news .article .article_title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.page_single-news .article .article_title_2 {
+  font-size: 2.8rem;
+  padding-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.page_single-news .article .meta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1.3rem;
+  margin-bottom: 5rem;
+}
+
+.page_single-news .article .category {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: .6rem 2rem;
+  margin-left: 1.5rem;
+}
+
+.page_single-news .article .p {
+  line-height: 1.56;
+  margin-bottom: 3rem;
+}
+
+.page_single-news .article .table {
+  margin-bottom: 5rem;
+}
+
+.page_single-news .article .table tr {
+  line-height: 1.56;
+}
+
+.page_single-news .article .table th {
+  font-weight: 700;
+  padding-right: 2em;
+}
